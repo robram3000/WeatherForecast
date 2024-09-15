@@ -1,0 +1,83 @@
+[
+    {
+        "location": "City of Taguig, PH",
+        "temperature": "28.43\u00b0C",
+        "humidity": "84%",
+        "wind_speed": "3.58 m/s",
+        "status": "Overcast clouds",
+        "date": "2024-05-29",
+        "time": "20:07:35"
+    },
+    {
+        "location": "City of Taguig, PH",
+        "temperature": "30.04\u00b0C",
+        "humidity": "79%",
+        "wind_speed": "5.66 m/s",
+        "status": "Light rain",
+        "date": "2024-09-14",
+        "time": "17:42:47"
+    },
+    {
+        "location": "City of Taguig, PH",
+        "temperature": "30.04\u00b0C",
+        "humidity": "79%",
+        "wind_speed": "5.66 m/s",
+        "status": "Light rain",
+        "date": "2024-09-14",
+        "time": "17:42:51"
+    },
+    {
+        "location": "City of Taguig, PH",
+        "temperature": "30.04\u00b0C",
+        "humidity": "79%",
+        "wind_speed": "5.66 m/s",
+        "status": "Light rain",
+        "date": "2024-09-14",
+        "time": "17:42:55"
+    },
+    {
+        "location": "City of Taguig, PH",
+        "temperature": "30.04\u00b0C",
+        "humidity": "79%",
+        "wind_speed": "5.66 m/s",
+        "status": "Light rain",
+        "date": "2024-09-14",
+        "time": "17:43:03"
+    },
+    {
+        "location": "City of Taguig, PH",
+        "temperature": "30.04\u00b0C",
+        "humidity": "79%",
+        "wind_speed": "5.66 m/s",
+        "status": "Light rain",
+        "date": "2024-09-14",
+        "time": "17:43:03"
+    },
+    {
+        "location": "City of Taguig, PH",
+        "temperature": "30.04\u00b0C",
+        "humidity": "79%",
+        "wind_speed": "5.66 m/s",
+        "status": "Light rain",
+        "date": "2024-09-14",
+        "time": "17:43:13"
+    },
+    {
+        "location": "City of Taguig, PH",
+        "temperature": "30.04\u00b0C",
+        "humidity": "79%",
+        "wind_speed": "5.66 m/s",
+        "status": "Light rain",
+        "date": "2024-09-14",
+        "time": "17:43:23"
+    },
+    {
+        "location": "City of Taguig, PH",
+        "temperature": "30.04\u00b0C",
+        "humidity": "79%",
+        "wind_speed": "5.66 m/s",
+        "status": "Light rain",
+        "date": "2024-09-14",
+        "time": "17:43:33"
+    }
+]
