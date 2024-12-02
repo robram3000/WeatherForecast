@@ -9,7 +9,7 @@ public class Main {
 
     public Scanner scan = new Scanner(System.in);
     public static Main Interface = new Main();
-    public static Validation.LogInValidation LogInValidate;
+    public static Validation.LogInValidation LogInValidate = new Validation().new LogInValidation();
 
     public static void main(String[] args) {
         Interface.SwiftPayInteface();
@@ -23,6 +23,7 @@ public class Main {
         System.out.print("[3] Exit\n");
 
         int UIChoice = scan.nextInt();
+        scan.nextLine();
 
         switch (UIChoice){
             case 1 :
@@ -43,37 +44,32 @@ public class Main {
     private void RegisterAccount(){
         System.out.println("============ SwiftPay ============ \n");
 
+        System.out.print("Enter Your Fullname :");
+        String Fullname = scan.nextLine();
+
+
 
     }
 
-    private void LoginInterface(){
-
+    private void LoginInterface() {
         System.out.println("============ SwiftPay ============ \n");
 
-        System.out.print("Enter your CellphoneNo : ");
+        System.out.print("Enter your CellphoneNo: ");
         String CpNo = scan.nextLine();
 
-        while (true)
-        {
-
-            if(CpNo.isEmpty())
-            {
+        while (true) {
+            if (CpNo.isEmpty()) {
                 System.out.println("CellphoneNumber is Empty");
                 return;
-            }
-            else
-            {
+            } else {
                 System.out.println(LogInValidate.LengthCellPhoneNumber(CpNo));
+                break;
             }
-            System.out.print("Enter Your PinNumber :");
-            String PinNo = scan.nextLine();
-            System.out.println(LogInValidate.LengthPinNumber(PinNo));
-
         }
 
-
-
-
+        System.out.print("Enter Your PinNumber: ");
+        String PinNo = scan.nextLine();
+        System.out.println(LogInValidate.LengthPinNumber(PinNo));
     }
 
 
